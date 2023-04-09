@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Download the dataset
+wget -O cifar-10-python.tar.gz https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+
+# Extract the dataset
+tar -xvzf cifar-10-python.tar.gz
+
+# Remove the tar file
+rm cifar-10-python.tar.gz
